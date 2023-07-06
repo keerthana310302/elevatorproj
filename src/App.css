@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+.nav{
+  width: 100%;
+  height: 70px;
+  background-color: blueviolet;
+}
+.setting{
+  font-family: 'Hanalei Fill', cursive;
+  color: rgb(255, 0, 81);
+}
+.box{
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  gap: 70px;
+}
+.bat_level,.brand,.speed,.capacity,.power{
+  width: 1000px;
+  height: 100px;
+  border: 3px solid rgb(146, 133, 241);
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  color: rgb(33, 4, 4);
+  align-items: center;
+  font-size: 25px;
+  font-family: Inter;
+  border-radius: 25px;
+  justify-content: center;
+  background-color: rgb(245, 241, 234);
+}
+
+.topic{
+  width: 1150px;
+  height: 520px; 
+  margin-top: 80px;
+  margin-left: 150px;
+  /* border: 2px solid green; */
+  display: flex;
+  /* background-color:rgb(255, 0, 81);  */
+  /* display: inline-block; */
+}
+.pic{
+  width: 1150px;
+  height: 520px; 
+  /* border: 2px solid black; */
+  object-fit: cover;
+  /* background-color: blue; */
+}
+.about{
+ height: 520px;
+ width: 1150px;
+ /* display: inline-block; */
+ /* border: 2px solid black; */
+ /* background-color: brown; */
+}
+.details{
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.head{
+  font-size: 40px;
+  margin: 0;
+}
+.style{
+  font-size: 50px;
+  color: rgb(87, 87, 188);
+  margin: 0;
+}
